@@ -1,0 +1,116 @@
+
+.navbar{
+    background-color:darkgrey;
+}
+
+.collapse ul li a{
+    color: #FFEFD6;
+}
+
+
+.dropdown-menu {
+    background-color: rgb(36, 35, 37);
+}
+
+
+.nav-item {
+    color: #FFEFD6;
+    text-align: center;
+}
+ 
+.nav-item a {
+    color: #FFEFD6;
+    text-decoration: none;
+
+}
+
+
+.btnCarrito{
+    margin-right: 20px;
+}
+
+
+#filter__input{
+    display: flex;
+    text-align: center; 
+    margin: auto; 
+    width: 40%
+
+}
+
+#carrito{
+    display: none;
+    position: fixed;
+    top: 10%;
+    right: 10%;
+    width: 80%;
+    height: auto;
+    background-color:rgb(36, 35, 37);
+    z-index: 3;
+    color: #FFEFD6;
+}
+
+
+
+.btn-cerrar-carrito {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 20px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    color: #FFEFD6;
+}
+
+
+.card {
+    font-family: IBM-Plex-Sans;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    border: black 2px solid;
+    border-radius: 5px;
+    background-color: rgb(36, 35, 37);
+    width: 18rem;
+    transition: 0.3s;
+
+        .card-body{
+            text-align: center;
+            color: #FFEFD6;
+            padding-top: 5px;
+            margin: 25px;
+        }
+  }
+
+  .card-img-top{
+    width:40%; 
+    height: auto;
+  }
+
+
+.main-box {
+     background-color: darkgrey;
+    text-align: center;
+     margin-top: 10px;
+    padding-bottom: 10px; 
+    
+    .h2{
+        text-align: center;
+    }
+  
+}
+
+
+  .galeria-container{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    grid-row-gap: 60px;
+    justify-items: center;
+    margin-top: 20px; 
+ }  
+
+
